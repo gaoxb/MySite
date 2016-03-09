@@ -1,0 +1,74 @@
+.clearfix::after {
+	clear: both;
+	content: " ";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.hd-top {
+	height: 85px;
+	margin: 0 auto;
+	width: 1190px;
+}
+
+.logo {
+	background-position: 0 0;
+	display: block;
+	float: left;
+	height: 85px;
+	width: 256px;
+}
+
+.hot-phone {
+	color: #22ac38;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 27px;
+}
+
+.hot-phone i {
+	background-position: -30px -100px;
+	display: block;
+	float: left;
+	height: 30px;
+	margin-right: 5px;
+	width: 30px;
+}
+
+.nav {
+	background-color: #e54121;
+	background: #22ac38 none repeat scroll 0 0;
+	height: 46px;
+	line-height: 46px;
+}
+
+.nav a:hover,
+.nav a.active {
+	background: #179500 none repeat scroll 0 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav a {
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 0 30px;
+}
+
+.w {
+	margin: 0 auto;
+	width: 1190px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}

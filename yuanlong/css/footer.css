@@ -1,0 +1,112 @@
+.footer {
+	background: #2e2e2e none repeat scroll 0 0;
+	padding: 50px 0 30px;
+}
+
+.clearfix::after {
+	clear: both;
+	content: " ";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.company-info {
+	color: #b8b8b8;
+	height: 90px;
+	margin: 0 auto;
+	padding-bottom: 70px;
+	width: 1190px;
+}
+
+.footer-logo {
+	background-position: -154px -100px;
+	float: left;
+	height: 90px;
+	margin-left: 40px;
+	width: 102px;
+}
+
+.phone-email {
+	float: left;
+	padding-left: 50px;
+	width: 230px;
+}
+
+.phone-email p {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.phone-email p span {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.gz-ewm {
+	display: block;
+	float: left;
+	height: 85px;
+	margin-top: 4px;
+	width: 85px;
+}
+
+.ewm-tit {
+	float: left;
+	font-size: 14px;
+	line-height: 22px;
+	padding-left: 8px;
+	width: 82px;
+}
+
+.company-info .basic-info {
+	background: transparent none repeat scroll 0 0;
+	float: left;
+	margin: 0;
+	padding-left: 20px;
+	width: 390px;
+}
+
+.info-link {
+	font-size: 14px;
+	line-height: 22px;
+	padding-bottom: 8px;
+}
+
+.arc-info {
+	font-family: simhei;
+	line-height: 20px;
+}
+
+.friendly-link {
+	height: 28px;
+	line-height: 28px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 0 0 90px;
+	position: relative;
+	width: 1100px;
+	padding-top: 50px;
+}
+
+.friendly-link a {
+	color: #666;
+	display: inline-block;
+	line-height: 28px;
+	margin-right: 20px;
+}
+
+.friendly-link a:hover {
+	color: #666;
+}
+
+.link-tit {
+	color: #000;
+	font-size: 16px;
+	height: 28px;
+	left: 0;
+	padding-top: 50px;
+	position: absolute;
+	top: 0;
+	width: 90px;
+}

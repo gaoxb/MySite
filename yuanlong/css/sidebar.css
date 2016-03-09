@@ -1,0 +1,39 @@
+.side-bar {
+	bottom: 0;
+	position: fixed;
+	right: 10px;
+	z-index: 999;
+}
+
+.side-bar a {
+	display: block;
+	height: 44px;
+}
+
+.close-side {
+	background-position: -109px -145px;
+	position: absolute;
+	right: 0;
+	top: -57px;
+}
+
+.totop {
+	background-position: 0 -145px;
+	width: 44px;
+}
+
+.totop:hover {
+	background-position: -45px -145px;
+}
+
+.close-side {
+	background-position: -109px -145px;
+	position: absolute;
+	right: 0;
+	top: -57px;
+	width: 44px;
+}
+
+.close-side:hover {
+	background-position: -109px -100px;
+}
